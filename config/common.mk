@@ -134,3 +134,6 @@ endif
 
 # Dot_props
 $(call inherit-product, vendor/dot/config/dot_props.mk)
+
+# Face Unlock
+$(call inherit-product-if-exists, external/moto/faceunlock/config.mk)
